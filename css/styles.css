@@ -112,7 +112,6 @@ color: #2e2f42;
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-nav-item {
@@ -121,6 +120,7 @@ color: #2e2f42;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 
 .nav:hover,
@@ -270,8 +270,15 @@ color: #2e2f42;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
     padding: 32px 0;
+}
+.team-list-item-div .title {
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+.team-list-item-div .page {
+    text-align: center;
 }
 /* #endregion Team */
 
