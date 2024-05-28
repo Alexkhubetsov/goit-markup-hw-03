@@ -122,7 +122,9 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         padding: 24px 0;
 }
-
+.header-nav-item a {
+padding: 24px 0;
+}
 .nav:hover,
 .nav:focus {
     color: #404bbf;
